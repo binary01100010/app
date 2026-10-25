@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  width: 100%;
+  .btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(65, 105, 225);
+    padding: 20px 20px;
+    width: 100%;
+    .headerBtn {
+      background-color: white;
+      width: 120px;
+      height: 30px;
+      border-radius: 5px;
+      border: 2px rgb(255, 255, 255) solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      &.active {
+        background-color: rgb(0, 150, 27);
+        color: white;
+        border: 2px rgb(0, 150, 27) solid;
+      }
+    }
+  }
+
+  @media (max-width: 630px) {
+    .headerBtn {
+      font-size: 1.6vw;
+      gap: 2rem;
+    }
+  }
+}
