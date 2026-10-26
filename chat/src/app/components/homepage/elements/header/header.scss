@@ -1,28 +1,32 @@
+@use '../../../../../styles/mixins/flex' as f;
+@use '../../../../../styles/variables' as v;
+
 header {
   display: flex;
   width: 100%;
   .btns {
-    display: flex;
-    justify-content: center;
+    @include f.DfJc;
+
     gap: 10px;
-    background-color: rgb(65, 105, 225);
     padding: 20px 20px;
     width: 100%;
+
+    background-color: v.$royalBlue;
     .headerBtn {
-      background-color: white;
+      @include f.DJA;
+
       width: 120px;
       height: 30px;
       border-radius: 5px;
-      border: 2px rgb(255, 255, 255) solid;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       gap: 10px;
 
+      background-color: v.$white;
+      border: 2px v.$white solid;
+
       &.active {
-        background-color: rgb(0, 150, 27);
-        color: white;
-        border: 2px rgb(0, 150, 27) solid;
+        background-color: v.$activeGreen;
+        color: v.$white;
+        border: 2px v.$activeGreen solid;
       }
     }
   }
