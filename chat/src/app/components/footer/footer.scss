@@ -1,0 +1,32 @@
+@use '../../../styles/variables' as v;
+@use '../../../styles/mixins/flex' as f;
+@use '../../../styles/extends/separator' as s;
+
+footer {
+  @include f.DJAF;
+  color: v.$white;
+
+  gap: 20px;
+  padding: 20px;
+
+  background-color: v.$darkBlue;
+
+  .footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 90%;
+
+    h4 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .footerMiddle {
+    @extend %footerSeparator;
+  }
+
+  .footerBottom {
+  }
+}

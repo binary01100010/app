@@ -1,8 +1,20 @@
 {
-  "GRÜSSE": "¡Hola!",
+  "GRÜSSE": "¡Buenos días!",
   "DEUTSCH": "Alemán",
   "ENGLISCH": "Inglés",
   "FRANZÖSISCH": "Francés",
   "SPANISCH": "Español",
-  "RUSSISCH": "Ruso"
+  "RUSSISCH": "Ruso",
+  "UNTERNEHMEN": "Empresa",
+  "UEBER_UNS": "Sobre nosotros",
+  "KONTAKT": "Contacto",
+  "HILFE": "Ayuda",
+  "RECHTLICHES": "Información legal",
+  "IMPRESSUM": "Aviso legal",
+  "DATENSCHUTZ": "Política de privacidad",
+  "NUTZUNGSBEDINGUNGEN": "Términos de uso",
+  "WEITERE_LINKS": "Más enlaces",
+  "FAQ": "Preguntas frecuentes",
+  "COOKIE_EINSTELLUNGEN": "Configuración de cookies",
+  "ALLE_RECHTE_VORBEHALTEN": "Todos los derechos reservados."
 }

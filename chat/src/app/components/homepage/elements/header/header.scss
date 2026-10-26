@@ -15,7 +15,7 @@ header {
     .headerBtn {
       @include f.DJA;
 
-      width: 120px;
+      width: 140px;
       height: 30px;
       border-radius: 5px;
       gap: 10px;
@@ -31,7 +31,7 @@ header {
     }
   }
 
-  @media (max-width: 630px) {
+  @media (max-width: 730px) {
     .headerBtn {
       font-size: 1.6vw;
       gap: 2rem;
