@@ -1,13 +1,14 @@
 @use '../../../styles/variables' as v;
 @use '../../../styles/mixins/flex' as f;
 @use '../../../styles/extends/separator' as s;
+@use '../../../styles/mixins/typography' as t;
 
 footer {
   @include f.DJAF;
   color: v.$white;
 
   gap: 20px;
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
 
   background-color: v.$darkBlue;
 
@@ -26,7 +27,34 @@ footer {
   .footerMiddle {
     @extend %footerSeparator;
   }
+}
 
-  .footerBottom {
+@media (max-width: 730px) {
+  footer {
+    font-size: t.$siebenDreiNull;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  footer {
+    font-size: t.$fünfNullNull;
+    .footerTop {
+      @include f.DJAF;
+
+      gap: 20px;
+
+      .footerTopCompany,
+      .footerTopLaw,
+      .footerTopMoreLinks {
+        @include f.DJAF;
+
+        .footerTopCompanyPoints,
+        .footerTopLawPoints,
+        .footerTopMoreLinksPoints {
+          @include f.DJAF;
+        }
+      }
+    }
   }
 }
