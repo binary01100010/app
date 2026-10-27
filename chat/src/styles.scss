@@ -9,7 +9,6 @@
 
 body {
   @include f.DfJc;
-  min-height: 100vh;
   font-family: 'Inter', sans-serif;
 }
 
@@ -21,7 +20,5 @@ textarea {
 }
 
 app-root {
-  display: flex;
-  flex-direction: column;
   width: 100%;
 }
