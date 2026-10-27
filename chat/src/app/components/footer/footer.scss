@@ -18,6 +18,7 @@ footer {
     align-items: flex-start;
 
     width: 90%;
+    max-width: 1440px;
 
     h4 {
       margin-bottom: 10px;
@@ -26,6 +27,11 @@ footer {
 
   .footerMiddle {
     @extend %footerSeparator;
+    max-width: 1440px;
+  }
+
+  .footerBottom {
+    max-width: 1440px;
   }
 }
 
