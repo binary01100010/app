@@ -1,0 +1,22 @@
+@use '../../../../../styles/variables' as v;
+@use '../../../../../styles/mixins/flex' as f;
+
+.bodyTopHeader {
+  @include f.DJA;
+
+  background-color: v.$black;
+
+  width: 100%;
+  padding: 10px 20px;
+  gap: 10px;
+
+  button {
+    width: 50%;
+
+    &:active {
+      background-color: black;
+      color: white;
+      border: none;
+    }
+  }
+}
