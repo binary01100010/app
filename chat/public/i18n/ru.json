@@ -10,11 +10,13 @@
   "KONTAKT": "Контакты",
   "HILFE": "Помощь",
   "RECHTLICHES": "Правовая информация",
-  "IMPRESSUM": "Юридическая информация",
+  "IMPRESSUM": "Выходные данные",
   "DATENSCHUTZ": "Политика конфиденциальности",
   "NUTZUNGSBEDINGUNGEN": "Условия использования",
-  "WEITERE_LINKS": "Другие ссылки",
+  "WEITERE_LINKS": "Дополнительные ссылки",
   "FAQ": "Часто задаваемые вопросы",
   "COOKIE_EINSTELLUNGEN": "Настройки файлов cookie",
-  "ALLE_RECHTE_VORBEHALTEN": "Все права защищены."
+  "ALLE_RECHTE_VORBEHALTEN": "Все права защищены",
+  "ABO_VERSION": "Версия по подписке",
+  "FREE_VERSION": "Бесплатная версия"
 }

@@ -6,7 +6,7 @@
   "SPANISCH": "Espagnol",
   "RUSSISCH": "Russe",
   "UNTERNEHMEN": "Entreprise",
-  "UEBER_UNS": "À propos",
+  "UEBER_UNS": "À propos de nous",
   "KONTAKT": "Contact",
   "HILFE": "Aide",
   "RECHTLICHES": "Informations juridiques",
@@ -16,5 +16,7 @@
   "WEITERE_LINKS": "Autres liens",
   "FAQ": "FAQ",
   "COOKIE_EINSTELLUNGEN": "Paramètres des cookies",
-  "ALLE_RECHTE_VORBEHALTEN": "Tous droits réservés."
+  "ALLE_RECHTE_VORBEHALTEN": "Tous droits réservés",
+  "ABO_VERSION": "Version avec abonnement",
+  "FREE_VERSION": "Version gratuite"
 }

@@ -2,7 +2,7 @@
 @use '../../../../../styles/mixins/flex' as f;
 
 .bodyTopHeader {
-  @include f.DJA;
+  @include f.DJAF;
 
   background-color: v.$black;
 
@@ -10,13 +10,73 @@
   padding: 10px 20px;
   gap: 10px;
 
-  button {
-    width: 50%;
-
-    &.active {
-      background-color: black;
+  .bodyTopHeaderTop {
+    @include f.DJA;
+    gap: 20px;
+    h1 {
       color: white;
+    }
+    img {
+      width: 50px;
+      height: auto;
+    }
+  }
+
+  .bodyTopHeaderBtns {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px 20px;
+    gap: 20px;
+    display: flex;
+    button {
+      background-color: white;
+      width: 50%;
+      padding: 10px;
       border: none;
+      border-radius: 10px;
+
+      &.active {
+        color: white;
+        border: 2px solid transparent;
+
+        background:
+          linear-gradient(black, black) padding-box,
+          repeating-linear-gradient(90deg, red 0px, yellow 60px, green 120px, blue 180px, red 240px)
+            border-box;
+
+        background-size:
+          100% 100%,
+          240px 100%;
+        animation: borderFlow 3s linear infinite;
+
+        @keyframes borderFlow {
+          from {
+            background-position:
+              0 0,
+              0 0;
+          }
+
+          to {
+            background-position:
+              0 0,
+              240px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 355px) {
+  .bodyTopHeader {
+    .bodyTopHeaderTop {
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      img {
+        width: 15vw;
+      }
     }
   }
 }

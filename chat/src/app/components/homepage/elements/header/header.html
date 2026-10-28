@@ -5,21 +5,20 @@
       [class.active]="language.selectedLanguage() === 'de'"
       class="headerBtn"
     >
-      &#127465;&#127466; {{ 'DEUTSCH' | translate }}
+      {{ 'DEUTSCH' | translate }}
     </button>
     <button
       (click)="language.changeLanguage('en')"
       [class.active]="language.selectedLanguage() === 'en'"
       class="headerBtn"
     >
-      &#127468;&#127463; {{ 'ENGLISCH' | translate }}
+      {{ 'ENGLISCH' | translate }}
     </button>
     <button
       (click)="language.changeLanguage('fr')"
       [class.active]="language.selectedLanguage() === 'fr'"
       class="headerBtn"
     >
-      &#127467;&#127479;
       {{ 'FRANZÖSISCH' | translate }}
     </button>
     <button
@@ -27,14 +26,14 @@
       [class.active]="language.selectedLanguage() === 'es'"
       class="headerBtn"
     >
-      &#127466;&#127480; {{ 'SPANISCH' | translate }}
+      {{ 'SPANISCH' | translate }}
     </button>
     <button
       (click)="language.changeLanguage('ru')"
       [class.active]="language.selectedLanguage() === 'ru'"
       class="headerBtn"
     >
-      &#127479;&#127482; {{ 'RUSSISCH' | translate }}
+      {{ 'RUSSISCH' | translate }}
     </button>
   </div>
 </header>

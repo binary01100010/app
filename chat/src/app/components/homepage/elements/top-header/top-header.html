@@ -1,14 +1,20 @@
 <div class="bodyTopHeader">
-  <button
-    (click)="version.versionStatus('abo')"
-    [class.active]="version.selectedVersion() === 'abo'"
-  >
-    Abo Version
-  </button>
-  <button
-    (click)="version.versionStatus('free')"
-    [class.active]="version.selectedVersion() === 'free'"
-  >
-    Free Version
-  </button>
+  <div class="bodyTopHeaderTop">
+    <h1>ThreeFaceChat</h1>
+    <img src="icon/logo.svg" alt="logo of website" />
+  </div>
+  <div class="bodyTopHeaderBtns">
+    <button
+      (click)="version.versionStatus('abo')"
+      [class.active]="version.selectedVersion() === 'abo'"
+    >
+      {{ 'ABO_VERSION' | translate }}
+    </button>
+    <button
+      (click)="version.versionStatus('free')"
+      [class.active]="version.selectedVersion() === 'free'"
+    >
+      {{ 'FREE_VERSION' | translate }}
+    </button>
+  </div>
 </div>
