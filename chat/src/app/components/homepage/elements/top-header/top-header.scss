@@ -13,7 +13,7 @@
   button {
     width: 50%;
 
-    &:active {
+    &.active {
       background-color: black;
       color: white;
       border: none;

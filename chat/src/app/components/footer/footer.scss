@@ -28,6 +28,7 @@ footer {
     .footerTopLaw,
     .footerTopMoreLinks {
       @include f.DJAF;
+      width: 100%;
       .footerTopCompanyPoints,
       .footerTopLawPoints,
       .footerTopMoreLinksPoints {

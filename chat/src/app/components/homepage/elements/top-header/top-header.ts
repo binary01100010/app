@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { VersionHomepage } from '../../../../services/versionHomepage/version-homepage';
 
 @Component({
   selector: 'app-top-header',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './top-header.html',
   styleUrl: './top-header.scss',
 })
-export class TopHeader {}
+export class TopHeader {
+  version = inject(VersionHomepage);
+}
