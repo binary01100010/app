@@ -18,5 +18,12 @@
   "COOKIE_EINSTELLUNGEN": "Configuración de cookies",
   "ALLE_RECHTE_VORBEHALTEN": "Todos los derechos reservados",
   "ABO_VERSION": "Versión de suscripción",
-  "FREE_VERSION": "Versión gratuita"
+  "FREE_VERSION": "Versión gratuita",
+  "OPEN": "Abrir",
+  "CLOSE": "Cerrar",
+  "HEADER_CONTENT_1": "Contenido 1",
+  "HEADER_CONTENT_2": "Contenido 2",
+  "HEADER_CONTENT_3": "Contenido 3",
+  "HEADER_CONTENT_4": "Contenido 4",
+  "HEADER_CONTENT_5": "Contenido 5"
 }

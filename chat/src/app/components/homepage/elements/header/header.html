@@ -1,39 +1,30 @@
 <header>
   <div class="btns">
-    <button
-      (click)="language.changeLanguage('de')"
-      [class.active]="language.selectedLanguage() === 'de'"
-      class="headerBtn"
-    >
-      {{ 'DEUTSCH' | translate }}
-    </button>
-    <button
-      (click)="language.changeLanguage('en')"
-      [class.active]="language.selectedLanguage() === 'en'"
-      class="headerBtn"
-    >
-      {{ 'ENGLISCH' | translate }}
-    </button>
-    <button
-      (click)="language.changeLanguage('fr')"
-      [class.active]="language.selectedLanguage() === 'fr'"
-      class="headerBtn"
-    >
-      {{ 'FRANZÖSISCH' | translate }}
-    </button>
-    <button
-      (click)="language.changeLanguage('es')"
-      [class.active]="language.selectedLanguage() === 'es'"
-      class="headerBtn"
-    >
-      {{ 'SPANISCH' | translate }}
-    </button>
-    <button
-      (click)="language.changeLanguage('ru')"
-      [class.active]="language.selectedLanguage() === 'ru'"
-      class="headerBtn"
-    >
-      {{ 'RUSSISCH' | translate }}
-    </button>
+    @for (item of headerData; track item.language) {
+      <div class="btnsDiv">
+        <button
+          type="button"
+          (click)="language.changeLanguage(item.language)"
+          [class.active]="language.selectedLanguage() === item.language"
+          class="headerBtn"
+        >
+          {{ item.key | translate }}
+        </button>
+
+        @if (version.selectedVersion() === 'abo') {
+          <details [open]="isOpen">
+            <summary [class.active]="isOpen" (click)="toggleAll($event)">
+              @if (isOpen) {
+                <span>{{ 'CLOSE' | translate }}</span>
+              } @else {
+                <span>{{ 'OPEN' | translate }}</span>
+              }
+            </summary>
+
+            <p>{{ item.content | translate }}</p>
+          </details>
+        }
+      </div>
+    }
   </div>
 </header>

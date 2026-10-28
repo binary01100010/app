@@ -18,5 +18,12 @@
   "COOKIE_EINSTELLUNGEN": "Настройки файлов cookie",
   "ALLE_RECHTE_VORBEHALTEN": "Все права защищены",
   "ABO_VERSION": "Версия по подписке",
-  "FREE_VERSION": "Бесплатная версия"
+  "FREE_VERSION": "Бесплатная версия",
+  "OPEN": "Открыть",
+  "CLOSE": "Закрыть",
+  "HEADER_CONTENT_1": "Содержимое 1",
+  "HEADER_CONTENT_2": "Содержимое 2",
+  "HEADER_CONTENT_3": "Содержимое 3",
+  "HEADER_CONTENT_4": "Содержимое 4",
+  "HEADER_CONTENT_5": "Содержимое 5"
 }
