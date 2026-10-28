@@ -1,5 +1,6 @@
 @use '../../../../../styles/mixins/flex' as f;
 @use '../../../../../styles/variables' as v;
+@use '../../../../../styles/mixins/typography' as t;
 
 header {
   @include f.DJA;
@@ -34,7 +35,7 @@ header {
 
   @media (max-width: 730px) {
     .headerBtn {
-      font-size: 2.5vw;
+      font-size: t.$siebenDreiNull;
     }
   }
 }
