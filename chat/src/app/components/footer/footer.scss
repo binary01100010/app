@@ -1,16 +1,16 @@
 @use '../../../styles/variables' as v;
 @use '../../../styles/mixins/flex' as f;
+@use '../../../styles/sizing' as si;
 @use '../../../styles/extends/separator' as s;
 @use '../../../styles/mixins/typography' as t;
 
 footer {
   @include f.DJAF;
   color: v.$white;
-
-  gap: 20px;
-  padding: 20px 20px 50px 20px;
-
   background-color: v.$darkBlue;
+
+  gap: 40px;
+  padding: 20px 20px 50px 20px;
 
   .footerTop {
     display: flex;
@@ -18,8 +18,6 @@ footer {
     align-items: flex-start;
 
     width: 90%;
-    max-width: 1440px;
-
     h3 {
       margin-bottom: 10px;
     }
@@ -40,25 +38,23 @@ footer {
 
   .footerMiddle {
     @extend %footerSeparator;
-    max-width: 1440px;
+    max-width: si.$mw;
   }
 
   .footerBottom {
-    max-width: 1440px;
+    max-width: si.$mw;
   }
 }
 
 @media (max-width: 730px) {
   footer {
-    font-size: t.$siebenDreiNull;
     gap: 2rem;
   }
 }
 
 @media (max-width: 500px) {
   footer {
-    font-size: t.$fünfNullNull;
-    padding-top: 3rem;
+    padding-top: 2rem;
     .footerTop {
       @include f.DJAF;
 
