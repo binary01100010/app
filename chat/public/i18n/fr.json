@@ -1,6 +1,5 @@
 {
   "GRÜSSE": "Bonjour !",
-  "DEUTSCH": "Allemand",
   "ENGLISCH": "Anglais",
   "FRANZÖSISCH": "Français",
   "SPANISCH": "Espagnol",
@@ -21,9 +20,8 @@
   "FREE_VERSION": "Version gratuite",
   "OPEN": "Ouvrir",
   "CLOSE": "Fermer",
-  "HEADER_CONTENT_1": "Contenu 1",
-  "HEADER_CONTENT_2": "Contenu 2",
-  "HEADER_CONTENT_3": "Contenu 3",
-  "HEADER_CONTENT_4": "Contenu 4",
-  "HEADER_CONTENT_5": "Contenu 5"
+  "HEADER_CONTENT_2": "🇬🇧 Anglais : Tes données personnelles pourraient intéresser les services de renseignement, car l'anglais est utilisé dans le monde entier pour la communication, les réseaux internationaux et les services numériques.",
+  "HEADER_CONTENT_3": "🇫🇷 Français : Tes données personnelles pourraient intéresser les services de renseignement, car le français est largement parlé en Europe et en Afrique, où ont lieu des échanges internationaux politiques, économiques et liés à la sécurité.",
+  "HEADER_CONTENT_4": "🇪🇸 Espagnol : Tes données personnelles pourraient intéresser les services de renseignement, car l'espagnol est parlé dans de nombreux pays et relie les réseaux de communication internationaux en Europe et en Amérique latine.",
+  "HEADER_CONTENT_5": "🇷🇺 Russe : Tes données personnelles pourraient intéresser les services de renseignement, car les communications en russe peuvent être surveillées dans le contexte des conflits internationaux, de l'espionnage et des cyberopérations."
 }

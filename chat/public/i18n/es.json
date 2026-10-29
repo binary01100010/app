@@ -1,6 +1,5 @@
 {
   "GRÜSSE": "¡Buenos días!",
-  "DEUTSCH": "Alemán",
   "ENGLISCH": "Inglés",
   "FRANZÖSISCH": "Francés",
   "SPANISCH": "Español",
@@ -21,9 +20,8 @@
   "FREE_VERSION": "Versión gratuita",
   "OPEN": "Abrir",
   "CLOSE": "Cerrar",
-  "HEADER_CONTENT_1": "Contenido 1",
-  "HEADER_CONTENT_2": "Contenido 2",
-  "HEADER_CONTENT_3": "Contenido 3",
-  "HEADER_CONTENT_4": "Contenido 4",
-  "HEADER_CONTENT_5": "Contenido 5"
+  "HEADER_CONTENT_2": "🇬🇧 Inglés: Tus datos personales podrían ser de interés para los servicios de inteligencia porque el inglés se utiliza en todo el mundo para la comunicación, las redes internacionales y los servicios digitales.",
+  "HEADER_CONTENT_3": "🇫🇷 Francés: Tus datos personales podrían ser de interés para los servicios de inteligencia porque el francés está muy extendido en Europa y África, donde se desarrollan comunicaciones internacionales de carácter político, económico y relacionadas con la seguridad.",
+  "HEADER_CONTENT_4": "🇪🇸 Español: Tus datos personales podrían ser de interés para los servicios de inteligencia porque el español se habla en numerosos países y conecta redes internacionales de comunicación en Europa y América Latina.",
+  "HEADER_CONTENT_5": "🇷🇺 Ruso: Tus datos personales podrían ser de interés para los servicios de inteligencia porque las comunicaciones en ruso pueden ser vigiladas en relación con conflictos internacionales, espionaje y operaciones cibernéticas."
 }

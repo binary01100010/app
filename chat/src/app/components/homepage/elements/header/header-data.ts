@@ -1,10 +1,5 @@
 export const HEADER_DATA = [
   {
-    language: 'de',
-    key: 'DEUTSCH',
-    content: 'HEADER_CONTENT_1',
-  },
-  {
     language: 'en',
     key: 'ENGLISCH',
     content: 'HEADER_CONTENT_2',

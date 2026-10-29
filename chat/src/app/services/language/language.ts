@@ -6,9 +6,9 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class Language {
   translate = inject(TranslateService);
-  selectedLanguage = signal<'de' | 'en' | 'fr' | 'es' | 'ru'>('en');
+  selectedLanguage = signal<'en' | 'fr' | 'es' | 'ru'>('en');
 
-  changeLanguage(lang: 'de' | 'en' | 'fr' | 'es' | 'ru'): void {
+  changeLanguage(lang: 'en' | 'fr' | 'es' | 'ru'): void {
     this.translate.use(lang);
     this.selectedLanguage.set(lang);
   }

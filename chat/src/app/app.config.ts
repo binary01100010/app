@@ -14,7 +14,7 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(),
     provideTranslateService({
       lang: 'en',
-      fallbackLang: 'de',
+      fallbackLang: 'en',
       loader: provideTranslateHttpLoader({
         prefix: '/i18n/',
         suffix: '.json',
@@ -27,7 +27,7 @@ export const appConfig: ApplicationConfig = {
 // Angular-Projekt bereit.
 //
 // `provideTranslateHttpLoader()` konfiguriert das Laden der
-// Sprachdateien (`de.json`, `en.json`) und nutzt dafür den
+// Sprachdateien (`en.json`, `fr.json`, `es.json`, `ru.json`) und nutzt dafür den
 // `HttpClient`, der die Dateien tatsächlich über HTTP vom
 // Server abruft.
 //

@@ -1,6 +1,5 @@
 {
   "GRÜSSE": "Good day!",
-  "DEUTSCH": "German",
   "ENGLISCH": "English",
   "FRANZÖSISCH": "French",
   "SPANISCH": "Spanish",
@@ -21,9 +20,8 @@
   "FREE_VERSION": "Free Version",
   "OPEN": "Open",
   "CLOSE": "Close",
-  "HEADER_CONTENT_1": "Content 1",
-  "HEADER_CONTENT_2": "Content 2",
-  "HEADER_CONTENT_3": "Content 3",
-  "HEADER_CONTENT_4": "Content 4",
-  "HEADER_CONTENT_5": "Content 5"
+  "HEADER_CONTENT_2": "🇬🇧 English: Your personal data could be of interest to intelligence agencies because English is widely used for global communication, international networks, and digital services.",
+  "HEADER_CONTENT_3": "🇫🇷 French: Your personal data could be of interest to intelligence agencies because French is widely spoken in Europe and Africa, where international political, economic, and security-related communication takes place.",
+  "HEADER_CONTENT_4": "🇪🇸 Spanish: Your personal data could be of interest to intelligence agencies because Spanish is spoken in numerous countries and connects international communication networks across Europe and Latin America.",
+  "HEADER_CONTENT_5": "🇷🇺 Russian: Your personal data could be of interest to intelligence agencies because Russian-language communication may be monitored in connection with international conflicts, espionage, and cyber operations."
 }

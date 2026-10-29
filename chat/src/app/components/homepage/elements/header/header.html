@@ -10,21 +10,25 @@
         >
           {{ item.key | translate }}
         </button>
-
-        @if (version.selectedVersion() === 'abo') {
-          <details [open]="isOpen">
-            <summary [class.active]="isOpen" (click)="toggleAll($event)">
-              @if (isOpen) {
-                <span>{{ 'CLOSE' | translate }}</span>
-              } @else {
-                <span>{{ 'OPEN' | translate }}</span>
-              }
-            </summary>
-
-            <p>{{ item.content | translate }}</p>
-          </details>
-        }
       </div>
     }
   </div>
+  @if (version.selectedVersion() === 'abo') {
+    <details [open]="isOpen">
+      <summary [class.active]="isOpen" (click)="toggleAll($event)">
+        @if (isOpen) {
+          <span>{{ 'CLOSE' | translate }}</span>
+        } @else {
+          <span>{{ 'OPEN' | translate }}</span>
+        }
+      </summary>
+
+      <div>
+        <p class="headerContent">{{ 'HEADER_CONTENT_2' | translate }}</p>
+        <p class="headerContent">{{ 'HEADER_CONTENT_3' | translate }}</p>
+        <p class="headerContent">{{ 'HEADER_CONTENT_4' | translate }}</p>
+        <p class="headerContent">{{ 'HEADER_CONTENT_5' | translate }}</p>
+      </div>
+    </details>
+  }
 </header>
