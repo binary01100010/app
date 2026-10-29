@@ -62,5 +62,13 @@ header {
         display: none;
       }
     }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      padding-top: 10px;
+      gap: 10px;
+    }
   }
 }
