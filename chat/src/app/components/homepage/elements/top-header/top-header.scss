@@ -4,6 +4,7 @@
 @use '../../../../../styles/mixins/flex' as f;
 @use '../../../../../styles/mixins/typography' as t;
 @use '../../../../../styles/extends/buttons' as b;
+@use '../../../../../styles/animations/colorful' as a;
 
 .bodyTopHeader {
   @include f.DJAF;
@@ -38,32 +39,7 @@
       @extend %bBtn;
 
       &.active {
-        color: v.$white;
-        border: 2px solid transparent;
-
-        background:
-          linear-gradient(black, black) padding-box,
-          repeating-linear-gradient(90deg, red 0px, yellow 60px, green 120px, blue 180px, red 240px)
-            border-box;
-
-        background-size:
-          100% 100%,
-          240px 100%;
-        animation: borderFlow 3s linear infinite;
-
-        @keyframes borderFlow {
-          from {
-            background-position:
-              0 0,
-              0 0;
-          }
-
-          to {
-            background-position:
-              0 0,
-              240px 0;
-          }
-        }
+        @include a.borderFlow;
       }
     }
   }

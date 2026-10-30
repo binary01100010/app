@@ -8,10 +8,12 @@
 }
 
 body {
-  @include f.DfJc;
   font-family: 'Inter', sans-serif;
+  font-size: 16px;
 }
 
+// übernimmt alle Schrifteigenschaften (Schriftart, Größe, Stärke usw.) vom übergeordneten Element.
+// font: italic 700 20px 'Inter', sans-serif;
 button,
 input,
 select,
@@ -21,8 +23,4 @@ textarea {
 
 button {
   cursor: pointer;
-}
-
-app-root {
-  width: 100%;
 }
