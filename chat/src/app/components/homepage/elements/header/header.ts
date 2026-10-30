@@ -3,6 +3,7 @@ import { Language } from '../../../../services/language/language';
 import { TranslatePipe } from '@ngx-translate/core';
 import { VersionHomepage } from '../../../../services/versionHomepage/version-homepage';
 import { HEADER_DATA } from './header-data';
+import { IsOpen } from '../../../../services/isOpen/is-open';
 
 @Component({
   selector: 'app-header',
@@ -13,19 +14,7 @@ import { HEADER_DATA } from './header-data';
 export class Header {
   language = inject(Language);
   version = inject(VersionHomepage);
+  isOpen = inject(IsOpen);
 
   headerData = HEADER_DATA;
-
-  isOpen = false;
-
-  // `MouseEvent` ist ein TypeScript-Typ, der Informationen über ein
-  // Mausereignis enthält, zum Beispiel einen Klick und die Position
-  // des Mauszeigers.
-  toggleAll(event: MouseEvent): void {
-    // event.preventDefault() verhindert die automatische
-    // Standardaktion des Browsers, damit du das Verhalten selbst
-    // steuern kannst.
-    event.preventDefault();
-    this.isOpen = !this.isOpen;
-  }
 }

@@ -14,9 +14,9 @@
     }
   </div>
   @if (version.selectedVersion() === 'abo') {
-    <details [open]="isOpen">
-      <summary [class.active]="isOpen" (click)="toggleAll($event)">
-        @if (isOpen) {
+    <details [open]="isOpen.isOpen()">
+      <summary [class.active]="isOpen.isOpen()" (click)="isOpen.isOpenSetLS($event)">
+        @if (isOpen.isOpen()) {
           <span>{{ 'CLOSE' | translate }}</span>
         } @else {
           <span>{{ 'OPEN' | translate }}</span>

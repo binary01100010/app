@@ -27,6 +27,7 @@ export class Language {
       selectedLanguageLSV === 'ru'
     ) {
       this.selectedLanguage.set(selectedLanguageLSV);
+      this.translate.use(selectedLanguageLSV);
     }
   }
 }
